@@ -10,6 +10,11 @@ Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git ba
 
 **Warning: Wallet is not encrypted. 
 
+## Requirements
+
+- Minimum 4GB RAM / Recommended 8GB RAM 
+- Minimum 3GB disk storage 
+
 ## Install 
 [Download zclassic-windows-wallet package](https://github.com/fxminer/zclassic-windows-wallet/releases) and extract to any directory.
 
