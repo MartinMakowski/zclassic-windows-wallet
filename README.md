@@ -8,7 +8,7 @@ ZClassic Windows native GUI client.
 Quick port zclassic-docker-gui-wallet which includes zclassic windows native client.
 Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git bash ecosystem).
 
-**Warning: Wallet is not encrypted. 
+**Warning: Wallet is not encrypted. Many viruses are looking for your unencrypted wallet.dat file. Use [VeraCrypt](https://veracrypt.codeplex.com/) to create encrypted drive and extract ZClassic to encrypted drive.**
 
 ## Requirements
 
