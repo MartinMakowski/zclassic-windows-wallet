@@ -11,7 +11,7 @@ then
 		mkdir -p "$PARAMS_DIR"
 	fi
 	echo "Copying params to ${PARAMS_DIR}..." 
-	cp -f .zcash-params/* "${PARAMS_DIR}" 
+	cp -f ../.zcash-params/* "${PARAMS_DIR}" 
 fi
 
 echo
