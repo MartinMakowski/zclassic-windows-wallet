@@ -8,6 +8,7 @@ ZClassic Windows native GUI client.
 Quick port zclassic-docker-gui-wallet which includes zclassic windows native client.
 Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git bash ecosystem).
 
+**Warning: Wallet is not encrypted. 
 
 ## Install 
 [Download zclassic-windows-wallet package](https://github.com/fxminer/zclassic-windows-wallet/releases) and extract to any directory.
@@ -18,12 +19,43 @@ Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git ba
 
 - start_zclassic_wallet.exe - to start java client
 
+- zcash-cli.exe - to run command line interface
+```
+./zcash-cli z_gettotalbalance
+```
 
 ## Sources
 
 - Java Code: https://github.com/fxminer/zcash-swing-wallet-ui
 
 - ZClassic: https://github.com/z-classic/zclassic
+
+## Backup
+
+### To text file
+
+- Start zcash-cli.exe
+```
+./zcash-cli z_exportwallet FILE_NAME
+```
+
+- Copy file to safe location.
+
+### wallet.dat
+
+Copy .zclassic/wallet.dat
+
+## Restore
+
+### Import from text file
+
+- Start zcash-cli.exe
+```
+./zcash-cli z_importwallet FILE_NAME
+```
+
+### wallet.dat
+Overwrite .zclassic/wallet.dat
 
 # Security Warnings
 [See important security warnings](https://github.com/z-classic/zclassic/blob/master/doc/security-warnings.md)
