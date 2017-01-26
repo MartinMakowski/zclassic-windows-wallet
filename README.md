@@ -2,6 +2,9 @@
 
 ZClassic Windows native GUI client.
 
+![alt tag](https://raw.githubusercontent.com/wiki/fxminer/zclassic-windows-wallet/images/zclassic-windows-wallet_v0.0.5.png) 
+
+
 Quick port zclassic-docker-gui-wallet which includes zclassic windows native client.
 Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git bash ecosystem).
 
