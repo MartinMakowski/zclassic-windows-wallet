@@ -16,3 +16,12 @@ Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git ba
 - start_zclassic_wallet.exe - to start java client
 
 
+## Sources
+
+Java Code: https://github.com/fxminer/zcash-swing-wallet-ui
+ZClassic: https://github.com/z-classic/zclassic
+
+# Security Warnings
+[See important security warnings](https://github.com/z-classic/zclassic/blob/master/doc/security-warnings.md)
+
+zclassic-windows-wallet, Zclassic and Zcash are unfinished and highly experimental. Use at your own risk.
