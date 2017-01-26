@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./zcash-cli.exe -datadir=../.zclassic $@
