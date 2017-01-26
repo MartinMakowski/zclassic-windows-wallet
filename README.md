@@ -10,6 +10,11 @@ Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git ba
 
 **Warning: Wallet is not encrypted. Many viruses are looking for your unencrypted wallet.dat file. Use [VeraCrypt](https://veracrypt.codeplex.com/) to create encrypted drive and extract ZClassic to encrypted drive.**
 
+Wallet is tested in:
+- Windows 7
+- Windows 8.1
+- Windows Server 2012
+
 ## Requirements
 
 - Minimum 4GB RAM / Recommended 8GB RAM 
