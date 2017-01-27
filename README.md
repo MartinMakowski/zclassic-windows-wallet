@@ -67,6 +67,15 @@ Copy .zclassic/wallet.dat
 ### wallet.dat
 Overwrite .zclassic/wallet.dat
 
+# FAQ
+
+- Zaddr transaction status
+```
+./zcash-cli z_listoperationids
+./zcash-cli z_getoperationresult
+
+```
+
 # Security Warnings
 [See important security warnings](https://github.com/z-classic/zclassic/blob/master/doc/security-warnings.md)
 
