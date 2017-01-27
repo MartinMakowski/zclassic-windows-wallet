@@ -5,7 +5,7 @@ ZClassic Windows native GUI client. Alfa version, may be unstable.
 ![alt tag](https://raw.githubusercontent.com/wiki/fxminer/zclassic-windows-wallet/images/zclassic-windows-wallet_v0.0.5.png) 
 
 
-Quick port zclassic-docker-gui-wallet which includes zclassic windows native client.
+Port of zclassic-docker-gui-wallet to use zclassic Windows native client.
 Release includes all you need to run ZClassic (params, blockchain, JRE 8, Git bash ecosystem).
 
 **Warning: Wallet is not encrypted. Many viruses are looking for your unencrypted wallet.dat file. Use [VeraCrypt](https://veracrypt.codeplex.com/) to create encrypted drive and extract ZClassic to encrypted drive.**
