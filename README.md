@@ -15,6 +15,8 @@ Wallet is tested in:
 - Windows 8.1
 - Windows Server 2012
 
+EnJoY and star github project!
+
 ## Requirements
 
 - Minimum 4GB RAM / Recommended 8GB RAM 
