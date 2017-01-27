@@ -1,6 +1,6 @@
 # zclassic-windows-wallet
 
-ZClassic Windows native GUI client.
+ZClassic Windows native GUI client. Alfa version, may be unstable.
 
 ![alt tag](https://raw.githubusercontent.com/wiki/fxminer/zclassic-windows-wallet/images/zclassic-windows-wallet_v0.0.5.png) 
 
