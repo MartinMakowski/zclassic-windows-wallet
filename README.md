@@ -40,7 +40,7 @@ Wallet is tested in:
 
 - ZClassic: https://github.com/z-classic/zclassic
 
-## Backup
+## Backup wallet
 
 ### To text file
 
@@ -55,7 +55,7 @@ Wallet is tested in:
 
 Copy .zclassic/wallet.dat
 
-## Restore
+## Restore wallet
 
 ### Import from text file
 
