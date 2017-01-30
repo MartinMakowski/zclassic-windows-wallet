@@ -1,0 +1,1 @@
+bash -c "cd scripts && ./package.sh"
