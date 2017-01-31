@@ -7,11 +7,12 @@
 
 [Setup]
 ; App info
+AppVersion=0.0.6
+
 AppName=ZClassic Windows Wallet
 AppId=zclassic-windows-wallet
 AppMutex=zclassic-windows-wallet
 SetupMutex=zclassic-windows-wallet-setup,Global\zclassic-windows-wallet-setup
-AppVersion=0.0.6
 AppPublisher=Community
 AppPublisherURL=http://www.zclassic.org
 
@@ -22,7 +23,7 @@ SolidCompression=yes
 
 ; Output file
 OutputDir=installer
-OutputBaseFilename=zclassic-windows-wallet-setup
+OutputBaseFilename=zclassic-windows-wallet-setup_v{#SetupSetting("AppVersion")}
 SetupIconFile=images\zcl-logo.ico
 
 ; Installation setup
@@ -35,12 +36,16 @@ DisableStartupPrompt=yes
 DisableWelcomePage=yes
 UninstallDisplayIcon={app}\{#ZCLASSIC_WALLET_EXE}
 UninstallFilesDir={app}\uninst
-
+PrivilegesRequired=none
 ; +1GB required for blockchain
 ExtraDiskSpaceRequired=1048576000
+DirExistsWarning=yes
+
+[Dirs]
+Name: "{app}"; Permissions: everyone-full
 
 [Files]
-Source: "..\dist\zclassic\*"; DestDir: "{app}"; Flags: recursesubdirs
+Source: "..\dist\zclassic\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs; Permissions: everyone-full
 
 [Icons]
 Name: "{group}\ZClassic Windows Wallet"; Filename: "{app}\start_zclassic_wallet.exe"

@@ -26,6 +26,8 @@ cp -fR scripts "${DIST_DIR}"
 # Update nodes
 cd "${DIR}"
 ./update_nodes.sh >> "../../${DIST_DIR}/.zclassic/zclassic.conf"
+./update_nodes.sh >> "../../${DIST_DIR}/.zclassic/zcash.conf"
+
 
 # Convert batch files to exe
 cd "${DIR}/../packages"

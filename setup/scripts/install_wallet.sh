@@ -14,8 +14,11 @@ ant -buildfile ./src/build/build.xml
 
 # Dist
 CLIENT_DIR="../../../dist/zclassic/client"
-rm_if_exists "${CLIENT_DIR}"
-mkdir -p "${CLIENT_DIR}"
+rm_if_exists "${CLIENT_DIR}/ZCashSwingWalletUI.jar"
+if ! [ -d "${CLIENT_DIR}" ]
+then
+	mkdir -p "${CLIENT_DIR}"
+fi
 cp -f build/jars/ZCashSwingWalletUI.jar "${CLIENT_DIR}"
 
 # Clean
@@ -24,3 +27,6 @@ rm -Rf build
 # launch4j
 cd "${DIR}/../packages/launch4j"
 ./launch4j.exe ../../launch4j-zclassic.xml
+
+cd "${DIR}/../../dist/zclassic/client"
+rm -f *.jar
