@@ -31,7 +31,7 @@ EnJoY and star github project!
 
 - start_zclassic_wallet.exe - to start java client
 
-- zcash-cli.exe - to run command line interface
+- start-zclassic-cli.exe - to run command line interface
 ```
 ./zcash-cli z_gettotalbalance
 ```
