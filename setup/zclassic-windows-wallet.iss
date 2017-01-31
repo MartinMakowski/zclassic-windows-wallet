@@ -28,12 +28,12 @@ SetupIconFile=images\zcl-logo.ico
 ; Installation setup
 CloseApplications=force
 CloseApplicationsFilter=*zclassic*.*,zcashd.exe
-DefaultDirName={pf}\zclassic-windows-wallet
+DefaultDirName={pf64}\zclassic-windows-wallet
 DefaultGroupName=ZClassic Windows Wallet
 DisableProgramGroupPage=yes
 DisableStartupPrompt=yes
 DisableWelcomePage=yes
-UninstallDisplayIcon={app}\start_zclassic_wallet.exe
+UninstallDisplayIcon={app}\{#ZCLASSIC_WALLET_EXE}
 UninstallFilesDir={app}\uninst
 PrivilegesRequired=none
 
@@ -50,7 +50,7 @@ Name: "{group}\ZClassic Windows Wallet"; Filename: "{app}\start_zclassic_wallet.
 Name: english; MessagesFile: compiler:Default.isl
 
 [Tasks]
-Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
 
 [Run]
 Filename: "{app}\scripts\post_install.bat"; WorkingDir: "{app}"

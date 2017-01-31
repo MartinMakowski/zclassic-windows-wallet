@@ -22,6 +22,7 @@ then
 	mkdir -p msys32/bin
 fi
 cp git/bin/bash.exe msys32/bin
+cp -Rf git/mingw64/bin/* msys32/mingw64/bin
 
 # Cleanup
 cd "${MSYS_DIR}/msys32/usr/share"
