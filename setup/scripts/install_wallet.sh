@@ -11,6 +11,7 @@ PATH=`dirname $PWD/java-*/bin/java.exe`:`dirname $PWD/apache-ant*/bin/ant.bat`:$
 
 cd zcash-swing-wallet-ui
 ant -buildfile ./src/build/build.xml
+verify
 
 # Dist
 CLIENT_DIR="../../../dist/zclassic/client"
@@ -20,13 +21,15 @@ then
 	mkdir -p "${CLIENT_DIR}"
 fi
 cp -f build/jars/ZCashSwingWalletUI.jar "${CLIENT_DIR}"
+verify
 
 # Clean
 rm -Rf build
 
 # launch4j
 cd "${DIR}/../packages/launch4j"
-./launch4j.exe ../../launch4j-zclassic.xml
+./launch4jc.exe ../../launch4j-zclassic.xml
+verify
 
 cd "${DIR}/../../dist/zclassic/client"
 rm -f *.jar
