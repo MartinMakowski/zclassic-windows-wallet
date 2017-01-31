@@ -22,7 +22,7 @@ then
 	mkdir -p msys32/bin
 fi
 cp git/bin/bash.exe msys32/bin
-cp -Rf git/mingw64/bin/* msys32/mingw64/bin
+cp -Rf git/mingw64/* msys32/mingw64
 
 # Cleanup
 cd "${MSYS_DIR}/msys32/usr/share"
@@ -51,9 +51,9 @@ fi
 mkdir -p "${DIST_DIR}"
 mv ${MSYS_DIR}/msys32/* "${DIST_DIR}"
 verify
+mkdir -p "${DIST_DIR}/tmp"
 
 # Clean
 rm -Rf "${MSYS_DIR}/msys32"
 rm -Rf "${MSYS_DIR}/git"
  
-

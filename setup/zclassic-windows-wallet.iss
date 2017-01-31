@@ -35,7 +35,6 @@ DisableStartupPrompt=yes
 DisableWelcomePage=yes
 UninstallDisplayIcon={app}\{#ZCLASSIC_WALLET_EXE}
 UninstallFilesDir={app}\uninst
-PrivilegesRequired=none
 
 ; +1GB required for blockchain
 ExtraDiskSpaceRequired=1048576000
