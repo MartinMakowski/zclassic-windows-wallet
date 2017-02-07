@@ -1,3 +1,5 @@
+#define ZCLASSIC_WALLET_EXE "start-zclassic-wallet.exe"
+
 [Setup]
 ; App info
 AppVersion=42815
@@ -25,13 +27,14 @@ DefaultGroupName=ZClassic Blockchain
 DisableProgramGroupPage=yes
 DisableStartupPrompt=yes
 DisableWelcomePage=yes
-UninstallDisplayIcon=images\zcl-logo.ico
+UninstallDisplayIcon={app}\{#ZCLASSIC_WALLET_EXE}
 UninstallFilesDir={app}\uninst_blockchain
 PrivilegesRequired=none
 DirExistsWarning=no
 
 [Dirs]
 Name: "{app}"; Permissions: everyone-full
+Name: "{app}/.zclassic"; Flags: uninsneveruninstall
 
 [Files]
 Source: "packages/zclassic-blocks/*"; DestDir: "{app}/.zclassic"; Flags: recursesubdirs createallsubdirs; Permissions: everyone-full

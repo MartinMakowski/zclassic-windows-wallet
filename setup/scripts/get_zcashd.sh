@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Config
-ZCASHD_URL=https://zcash.dl.mercerweiss.com/zclassic-v1.0.5.zip
+ZCASHD_URL=https://github.com/z-classic/zclassic/releases/download/v1.0.5a/zclassic-Windows-NoGUI-v1.0.5.zip
 
 . lib/utils.sh
 echo
@@ -10,7 +10,7 @@ init_get
 cd ../packages
 
 # zcashd
-rm_if_exists zcashd.zip
+rm_if_exists zclassic.zip
 echo "Downloading ${ZCASHD_URL}..."
-curl ${CURL_PARAMS} -o zcashd.zip "${ZCASHD_URL}"
+curl ${CURL_PARAMS} -o zclassic.zip "${ZCASHD_URL}"
 verify

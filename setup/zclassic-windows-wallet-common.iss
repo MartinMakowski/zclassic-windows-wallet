@@ -7,7 +7,7 @@
 
 [Setup]
 ; App info
-AppVersion=0.0.6
+AppVersion=0.0.7
 
 AppName=ZClassic Windows Wallet
 AppId=zclassic-windows-wallet

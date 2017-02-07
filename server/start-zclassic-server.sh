@@ -17,7 +17,7 @@ fi
 cd "${DIR}"
 echo
 echo "Starting Zclassic server..."
-./zcashd.exe -datadir=/.zclassic -printtoconsole -showmetrics=0 $@ 
+./zcashd.exe -datadir=/.zclassic -exportdir=../share -printtoconsole -showmetrics=0 $@ 
 CODE=$?
 if [ $CODE -ne 0 ]
 then

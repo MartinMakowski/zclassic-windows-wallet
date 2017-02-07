@@ -20,7 +20,6 @@ then
 		echo "or"
 		echo "download full wallet version from https://github.com/fxminer/zclassic-windows-wallet"
 	    echo
-		pacman --noconfirm -Sy p7zip
 		echo "Downloading params to ${PARAMS_DIR}... Be patient. The size of params is about 850MB."
 		PARAMS_URL=https://github.com/fxminer/zclassic-docker-params/releases/download/0.0.1/zcash-params.7z
 		echo "PARAMS URL: ${PARAMS_URL}"
