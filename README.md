@@ -1,8 +1,13 @@
 # zclassic-windows-wallet
 
 ZClassic Windows native GUI client.
+Features:
+- Annonymous and public account transfers support (zaddr, taddr)
+- Anonymous messanger (zmsg)
+- Native Windows ZClassic 1.0.5 (Full node)
+- Can be used as cold storage address generator
 
-![alt tag](https://raw.githubusercontent.com/wiki/fxminer/zclassic-windows-wallet/images/zclassic-windows-wallet_v0.0.5.png) 
+![alt tag](https://raw.githubusercontent.com/wiki/fxminer/zclassic-windows-wallet/images/zclassic-windows-wallet_v0.0.7.png) 
 
 
 Port of [zclassic-docker-gui-wallet](https://github.com/fxminer/zclassic-docker-gui-wallet) + ZClassic Windows native client.
@@ -33,6 +38,19 @@ EnJoY and star github project!
 - ZClassic CLI (start-zclassic-cli.exe) - Command line interface
 ```
 ./zcash-cli z_gettotalbalance
+```
+## [ZMSG](https://github.com/whyrusleeping/zmsg)
+
+Open ZClassic command line interface from desktop (ZClassic CLI). Only zaddr addresses are supported.
+
+### Check messages
+```
+zmsg check
+```
+### Send message
+zmsg sendmsg --from FROM_Z_ADDR --to TO_Z_ADDR "Message"
+```
+zmsg sendmsg --from zcK8L8zBNSkZhY8BSmVagA875pvAjeMpKCAPDkzQ9y9VKivHxZFhMaJEbp1QjBP2PubRk7oHnk5UFkqYVQq4mW3N3j9yG1K --to zcKCNcDkmSMbeidh1eYyj6E1oCaivt2mWkgU2yj61kc2ugHV6HBmVu5Umq9F1bb71AyF4pBC3ZT4XrNhjCWZRLati5aCHQq "My first blockchain MSG"
 ```
 
 ## Sources
@@ -78,6 +96,11 @@ Overwrite .zclassic/wallet.dat
 ```
 # License
 [GNU GPLv3](http://www.gnu.org/licenses/gpl.html)
+
+Project includes the following:
+- Java GUI is based on [zcash-swing-wallet-ui](https://github.com/fxminer/zcash-swing-wallet-ui)
+- [ZClassic windows native build](https://github.com/z-classic/zclassic)
+- [zmsg](https://github.com/whyrusleeping/zmsg)
 
 # Security Warnings
 [See important security warnings](https://github.com/z-classic/zclassic/blob/master/doc/security-warnings.md)
