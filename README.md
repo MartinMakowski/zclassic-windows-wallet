@@ -1,6 +1,7 @@
 # zclassic-windows-wallet
 
 ZClassic Windows native GUI client.
+
 Features:
 - Annonymous and public account transfers support (zaddr, taddr)
 - Anonymous messanger (zmsg)
