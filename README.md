@@ -76,6 +76,8 @@ Overwrite .zclassic/wallet.dat
 ./zcash-cli z_getoperationresult
 
 ```
+# License
+[GNU GPLv3](http://www.gnu.org/licenses/gpl.html)
 
 # Security Warnings
 [See important security warnings](https://github.com/z-classic/zclassic/blob/master/doc/security-warnings.md)
