@@ -27,7 +27,7 @@ EnJoY and star github project!
 - Minimum 3GB disk storage 
 
 ## Install 
-[Download zclassic-windows-wallet package](https://github.com/fxminer/zclassic-windows-wallet/releases) and extract to any directory.
+[Download zclassic-windows-wallet package](https://github.com/fxminer/zclassic-windows-wallet/releases) and install to any directory.
 
 ## Run
 
