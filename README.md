@@ -6,7 +6,7 @@ Features:
 - Annonymous and public account transfers support (zaddr, taddr)
 - Anonymous messanger (zmsg)
 - Native Windows ZClassic 1.0.5 (Full node)
-- Can be used as cold storage address generator
+- Can be used as cold wallet address generator
 
 ![alt tag](https://raw.githubusercontent.com/wiki/fxminer/zclassic-windows-wallet/images/zclassic-windows-wallet_v0.0.7.png) 
 
